@@ -24,7 +24,7 @@ The aws provisioner for this code assumes that the credentials are created for p
     aws_access_key_id=XXXXXXXXXXXXXXXX
     aws_secret_access_key=XXXXXXXXXXXXXXXXXXXXXXX
   
-where access key and secret key are generated from the IAM module in AWS. If not done already, you will need to create a user and give it sufficient access to be able to create stuff (ususally Administrator) and then generate the access keys. Use these keys to set the .aws/credentials profile as stated above.
+where access key and secret key are generated from the IAM module in AWS. If not done already, you will need to create a user and give it sufficient access to be able to create stuff (ususally Administrator) and then generate the access keys. Use these keys to set the .aws/credentials profile as stated above. Please note that if you have your profile set already, you can use the same profile name and update it in the file providers.tf
 
 Once you have done the credentials profile, you can run this code using the following:
 
