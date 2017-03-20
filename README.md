@@ -54,4 +54,10 @@ Some explanation about the repo itself:
   - folder chef contains the chef cookbooks. my-cookbook folder has the actual cookbook data for this project. Rest is supplimentary chef cookbooks for nginx.
   
 
-  
+In order to see the output, you can browse to the instance in your web browser to see the Hello World message. The instance name can be obtained from your ec2 console. In this particular example, it is:
+
+  http://ec2-34-250-96-30.eu-west-1.compute.amazonaws.com/
+  displays:
+  Hello world
+
+
